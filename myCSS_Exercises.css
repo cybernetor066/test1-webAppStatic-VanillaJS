@@ -1,0 +1,136 @@
+/* Insert your comments here! */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+    color: green;
+    padding: 10px;
+    text-align: center;
+}
+
+
+th {
+    background-color: blue;
+}
+
+tr {
+    background-color: #efefef;
+}
+
+
+
+/* Creating separate stylesheets to control different styles for each sub-section 
+of a site by including multiple css files in one webpge.. */
+@import url("stylesheetName.css");
+table {
+    text-decoration-line: underline;
+    width: 600px;
+    text-align: center;
+    margin-left: auto;      /* The two autos are used To properly align a table block to the center(for stubborn tables). */
+    margin-right: auto;
+}
+
+
+
+
+
+
+h2~p {
+    color: darkred !important; /* Negates the last rule precedence */
+}
+
+h2~p {
+    color: blue;
+}
+
+.firstclass::first-letter {
+    text-decoration-line: underline;
+    color: navy;
+}
+
+#second::first-line {
+    text-decoration-line: underline;
+    color: navy;
+}
+
+
+#link1:link{
+    text-decoration: none;
+}
+#link2:link{
+    text-decoration: none;
+}
+
+
+#link1:visited{
+    color: black;
+}
+#link2:visited{
+    color: black;
+}
+
+
+#link1:hover{
+    text-decoration: underline;
+}
+#link2:hover{
+    text-decoration: underline;
+}
+
+#link1:active{
+    color: green;
+}
+#link2:active{
+    color: green;
+}
+
+
+a[id~="go"] {
+    color: purple;
+    margin-top: 10px;
+    border: 5px solid black;
+    padding: 10px;
+    border-radius: 100px
+}
+
+
+#submit {
+    text-align: right;
+    cursor: pointer;
+}
+
+
+
+ol {
+    list-style-type: upper-alpha;
+    position: relative;
+    top: 10px;
+    right: 100px;
+}
+
+
+
+#welcome {
+    position: fixed;
+    top: 0px;
+    right: 50px;
+    margin: 0px;
+    padding: 10px;
+    background-color: grey;
+}
+
+
+
+
+img.size {
+    width: 250px;
+    height: 250px;
+}
+
+
+
+body {
+    background-image: url("images/twilight.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: right top;
+}

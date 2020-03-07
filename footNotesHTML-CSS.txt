@@ -1,0 +1,8 @@
+#Notes: 
+#1. Its Good to know that in styling websites with the use of CSS3, the use of  ---px---
+     versus ---%--- value's unit during setting properties like the "top" CSS3 property for example,
+     there is always a difference between the two of them. the use of px is advised if the page
+     contents has the tendency to increase in future so as to avoid overlapping and hence 
+     mis-alignment of that element/page.
+
+#5.

@@ -1,0 +1,100 @@
+<!DOCTYPE html>  <!--Tells browser am using html5 version. -->
+<html>
+    <head>
+        <title>My first web page, <i>Italics</i>, not included</title>
+        <link href="textbook_examples2.css" type="text/css" rel="stylesheet" /> <!--Linking to and Using external css-->
+    </head>
+   
+    <body>
+        <h1 id="welcome">Welcome to my first webpage</h1>
+        <a href="#Contact">page down</a>
+        <hr />
+        <p>This is an html page that i created for <abbr tittle="National Aeronautics And Space
+            Administration">NASA</abbr>, using <q>visual studio code</q>.</p>
+
+        <h1 class="firstclass">The universe</h1>
+        
+        <div class="table">
+            <table>
+                <tr>
+                    <th scope="col">S/N</th>
+                    <th scope="col">Planet's Number</th>
+                    <th scope="col">The Milky way galaxy</th>
+                </tr>
+            
+                <tr>
+                    <th scope="row" colspan="3">(Solar system)</th>
+                    </tr>
+            
+                <tr>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>Mecury</td>
+                </tr>
+            
+                <tr>
+                    <td colspan="2">Number 2</td>
+                    <td>Venus</td>
+                </tr>
+            </table>
+        </div>
+        
+
+        <!--Entering and Submiting forms-->
+        <form action="codesTester1.html" method="post">
+            <p>
+                <label>username:<input type="username" name="username" placeholder="enter nickname" /></label>
+                <br />
+                <label for="username">Filling date:</label>
+                <input type="date" name="filling date"/><br />
+                <input type="submit" value="click here to register" id="submit"/>
+            </p>
+        </form>
+
+        
+        <h1 id="second">New Topic here</h1>
+        <ol>
+            <li><a href="codesTester1.html" id="link1">link to Item no.1</a></li>
+            <li><a href="codesTester1.html" target="_blank" id="link2">Link to Item no.2</a></li> <!--Open link in new tab-->
+        </ol>
+        <h2 id="Contact">Contact list</h2>
+            <a href="mailto:Delwaziri@yahoo.co.uk">My email address.</a>
+        
+        <h1>First image.</h1>
+        <figure>
+        <img src="images/twilight.jpg" alt="Image of a burning midnight camp fire" 
+        title="In Australia, these sorts of atmosphere is a beautifull experience"
+        class="align-image size"/>.
+        <br />
+        <figcaption>Camp Fires are normally lite by campers at night.</figcaption>
+        </figure>
+        
+
+        <!--Adding flash videos and audios, vidoes and audios also html5 videos and audios-->
+        <!--Using HTML5 to add video-->
+        <video src="videos/HybridApps.mp4"
+        poster="images/twilight.jpg" 
+        width="400" height="300"
+        preload="none" controls loop>
+        <p>A video of how to develop hybrid apps, using HTML&CSS and Javascript.</p>
+        </video>
+        
+        <!--Using HTML5 to add audio-->
+        <br />
+        <audio src="audios/Abba - Take A Chance On Me.mp3"
+        controls preload="auto"
+        loop>
+        <p>This browser does not support our audio format</p>
+        </audio>
+        
+
+        <br />
+        <a href="#welcome" id="go up">Page up</a>
+        
+        <!--Copy right.-->
+        <p>
+            &copy;Cybernetor066 2019 *****&dollar;*****
+        </p>
+
+    </body>
+</html>
